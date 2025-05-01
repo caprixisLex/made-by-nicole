@@ -1,0 +1,26 @@
+:host {
+  display: block;
+  background-color: black;
+  height: 100vh; /* or desired height */
+  color: white; /* optional, for better text visibility */
+}
+
+h1 {
+    font-family: "MonteCarlo", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #e1c340;
+  }
+
+  .title-text{
+    color: white;
+  }
+  .logo-container{
+    display: flex;
+    display: block;
+  }
+
+  .title-name{
+    font-size: 20vh;
+    line-height: 0.8;
+  }
