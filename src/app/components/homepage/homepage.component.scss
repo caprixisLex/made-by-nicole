@@ -1,0 +1,72 @@
+:host {
+  display: block;
+  height: 100vh; /* or desired height */
+}
+
+.hero-section {
+  background-image: url('/assets/images/classy.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  min-width: 100vh;
+
+  .my-name{
+    font-family: "MonteCarlo", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #e1c340;
+    font-size: 15vh;
+    line-height: 0.8;
+  }
+  
+  .content {
+    display: flex;
+    align-items: center;
+    background: rgba(0, 13, 29, 0.8); /* optional overlay for contrast */
+    padding: 2rem;
+    height:100vh;
+    gap: 20px;
+    
+  }
+  
+  .container{
+    margin-left: 25px;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .job-title{
+    color: rgb(242, 245, 247);
+  }
+
+  .job-exp{
+    font-size: 15px;
+    color: white;
+  }
+
+  .buttons-container{
+    // background-color: red;
+    width: 57%;
+    display: flex;
+    justify-content: space-between;
+    
+    .mainpage-button{
+      width: 150px;
+      padding: 5px;
+      color: white;
+      border-radius: 5px;
+      border: 1px solid white;
+      background-color: transparent;
+       appearance: none;
+      -webkit-appearance: none;
+      transition: background-color 0.3s;
+      cursor: pointer;
+    }
+
+    .mainpage-button:hover {
+  background-color: rgb(209, 130, 166); /* only on hover */
+}
+  }
+}
